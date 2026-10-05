@@ -1,0 +1,95 @@
+[
+  {
+    "app": "fotostempel",
+    "source": "C:\\Users\\dario\\OneDrive\\Dokumente\\ChatGPT\\FotoStempel\\release\\store\\graphics\\icon-512.png",
+    "source_dimensions": [
+      512,
+      512
+    ],
+    "source_format": "PNG",
+    "source_sha256": "555e94a61d15c5b9ad71b8859c1a735b40bc35f3a86bb17b2b046e7e3288fd1d",
+    "target": "assets/icons/fotostempel.webp",
+    "dimensions": [
+      256,
+      256
+    ],
+    "format": "WebP lossless",
+    "bytes": 2202
+  },
+  {
+    "app": "kaufakte",
+    "source": "C:\\Users\\dario\\StudioProjects\\kaufakte\\assets\\branding\\kaufakte_icon.png",
+    "source_dimensions": [
+      1254,
+      1254
+    ],
+    "source_format": "PNG",
+    "source_sha256": "3ea9a5b4f1a83a27e4309d800c85412698e64bc683e3452a786809baf6c9129d",
+    "target": "assets/icons/kaufakte.webp",
+    "dimensions": [
+      256,
+      256
+    ],
+    "format": "WebP lossless",
+    "bytes": 51460
+  },
+  {
+    "app": "vertragsakte",
+    "source": "C:\\Users\\dario\\StudioProjects\\vertragsakte\\assets\\branding\\vertragsakte_icon.png",
+    "source_dimensions": [
+      1024,
+      1024
+    ],
+    "source_format": "PNG",
+    "source_sha256": "b94bff155743ea7ef709d5c46fb5168b1db976b22463119f1732380df627abc4",
+    "target": "assets/icons/vertragsakte.webp",
+    "dimensions": [
+      256,
+      256
+    ],
+    "format": "WebP lossless",
+    "bytes": 2962
+  },
+  {
+    "app": "boxvex",
+    "sources": [
+      {
+        "path": "C:\\Users\\dario\\StudioProjects\\boxvex\\android\\app\\src\\main\\AndroidManifest.xml",
+        "sha256": "945107c86800d5b82bea5057b0002f67a805432c29c5ab4655df8e59e79b6f43"
+      },
+      {
+        "path": "C:\\Users\\dario\\StudioProjects\\boxvex\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml",
+        "sha256": "8f5c89012a8034e3f88197fb88789b6ed58407bb170244e8420685a614b4fd7b"
+      },
+      {
+        "path": "C:\\Users\\dario\\StudioProjects\\boxvex\\android\\app\\src\\main\\res\\drawable\\boxvex_foreground.xml",
+        "sha256": "751755f0b3841a995d1350bcb8524b8193ee6b25dd25e4c2b0618a19b1f8b0da"
+      },
+      {
+        "path": "C:\\Users\\dario\\StudioProjects\\boxvex\\android\\app\\src\\main\\res\\values\\colors.xml",
+        "sha256": "d0385c11b647e9a31e6259aa32b4187d6f209b5b21353c3e5300b66c69391135"
+      },
+      {
+        "path": "C:\\Users\\dario\\StudioProjects\\boxvex\\android\\app\\src\\main\\res\\mipmap-anydpi\\ic_launcher.xml",
+        "sha256": "6bfa483e2c78abe377804615adebff2d79151b0311675cbfb102d6d87575c8c1"
+      },
+      {
+        "path": "C:\\Users\\dario\\StudioProjects\\boxvex\\docs\\DESIGN.md",
+        "sha256": "bf3e8aec51988dd1a3c4468f2f77145a6978d31aa8d4ec9feabc226f2038d619"
+      }
+    ],
+    "source_format": "Android adaptive icon: VectorDrawable foreground + color background",
+    "source_viewport": [
+      160,
+      160
+    ],
+    "composition": "Original foreground paths and translate(30,30) on original #1A1D21 background. Unmasked square; Android launcher-specific outer masks are not part of the source artwork.",
+    "target": "assets/icons/boxvex.webp",
+    "dimensions": [
+      256,
+      256
+    ],
+    "format": "WebP lossless",
+    "bytes": 1348
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fotostempel",
+    "name": "FotoStempel",
+    "benefit": "Deine Fotos. Dein Datum. Dein Text.",
+    "description": "Vorhandene Fotos auswählen, mit Datum, Uhrzeit und eigenem Text beschriften und als neue Kopien speichern.",
+    "android": "Bald verfügbar",
+    "ios": "Geplant",
+    "icon": "fotostempel.webp"
+  },
+  {
+    "id": "kaufakte",
+    "name": "Kaufakte",
+    "benefit": "Käufe geordnet. Belege griffbereit.",
+    "description": "Belege, Käufe und Garantien übersichtlich verwalten.",
+    "android": "In Vorbereitung",
+    "ios": "Geplant",
+    "icon": "kaufakte.webp"
+  },
+  {
+    "id": "vertragsakte",
+    "name": "Vertragsakte",
+    "benefit": "Verträge im Blick. Fristen im Griff.",
+    "description": "Verträge, Laufzeiten und Fristen im Blick behalten.",
+    "android": "In Vorbereitung",
+    "ios": "Geplant",
+    "icon": "vertragsakte.webp"
+  },
+  {
+    "id": "boxvex",
+    "name": "Boxvex",
+    "benefit": "Gut verstaut. Schnell gefunden.",
+    "description": "Boxen und Lagerinhalte mit QR-Codes organisieren.",
+    "android": "In Vorbereitung",
+    "ios": "Geplant",
+    "icon": "boxvex.webp"
+  }
+]

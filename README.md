@@ -1,6 +1,6 @@
 # ZimmaLabs Website
 
-Statische Website für FotoStempel, Kaufakte, Vertragsakte und Boxvex. Alle vier Apps sind als **In Vorbereitung** gekennzeichnet. Support: zimmalabs@gmail.com.
+Statische Website für FotoStempel, Kaufakte, Vertragsakte und Boxvex. FotoStempel: Android bald verfügbar, iOS geplant. Die übrigen Apps: Android in Vorbereitung, iOS geplant. Keine öffentliche Store-Verfügbarkeit behauptet. Support: zimmalabs@gmail.com.
 
 ## Betrieb ohne kostenpflichtige Dienste
 
@@ -26,7 +26,7 @@ Die Website ist noch nicht aktiviert und enthält weiterhin `noindex, nofollow`.
 
 ## Lokal prüfen
 
-Im Repository mit Python 3: `python -m http.server 8000` und http://localhost:8000 öffnen. Dieser Server dient ausschließlich der lokalen Vorschau, nicht dem Betrieb.
+Im Repository mit Python 3: `python tools/preview.py` und http://127.0.0.1:8000/zimmalabs-website/ öffnen. Dieser Server dient ausschließlich der lokalen Vorschau, nicht dem Betrieb.
 
 Automatische Prüfung: `python tools/verify.py`.
 
@@ -36,4 +36,14 @@ Nach Inhaltsfreigabe und bewusstem Push: GitHub → Settings → Pages → Build
 
 ## Gestaltung und Rechte
 
-Keine fremden Grafiken oder Fontdateien eingebunden. Das FotoStempel-Motiv ist eine CSS-Illustration und ausdrücklich keine echte App-Aufnahme. Keine Behauptung einer pauschalen Rechts- oder Markenfreigabe.
+Eigenes ZL-SVG und reine CSS-Geräteillustration, ausdrücklich keine App-Aufnahme. Original-App-Icons aus den jeweiligen Projekten, Herkunft und Abmessungen in `content/icon-sources.json`. Drei Icons wurden ohne gestalterische Änderungen auf 256 × 256 verkleinert und als verlustfreies WebP gespeichert. Boxvex verwendet eine unveränderte Komposition der tatsächlich referenzierten adaptiven Android-Launcher-Ressourcen; Pfade, Farben und Abstände sind erhalten. Die SVG-Komposition liegt in `content/boxvex-launcher.svg`; das WebP ist 256 × 256 und verlustfrei. Android-Launcher können zusätzlich eine gerätespezifische Außenmaske anwenden. Keine externen Fonts, keine pauschale Marken-/Rechtefreigabe.
+
+## Redesign lokal prüfen
+
+Status und App-Texte zentral in `content/apps.json`. Mit `python tools/build_site.py` die zehn statischen HTML-Seiten neu erzeugen. Python ist nur ein lokales Autorenwerkzeug; GitHub Pages benötigt keinen Build. Rechtstexte liegen unverändert als Inhaltsvorlagen in `content/`. Nach einer Inhaltsänderung generieren und `python tools/verify.py` ausführen.
+
+Design: tiefes Petrol, Champagner, System-Serif für Überschriften und System-Sans für UI. Navigation mobil über natives HTML-details, ganz ohne JavaScript. Lokaler Entwurf zur visuellen Freigabe; kein Commit, Push oder Pages-Wechsel im Redesign-Auftrag.
+
+Prüfung am 5. Oktober 2026: Edge 154.0.4258.53, zehn Seiten × neun Breiten (320, 360, 390, 412, 600, 768, 1024, 1280, 1440 px) × drei Textgrößen (100, 150, 200 Prozent): 270 Layoutprüfungen ohne horizontalen Überlauf oder defekte Bilder. Keine externen Ressourcenrequests und keine Cookies. Mobile Menüsteuerung mit Tastatur und Navigation getestet. Link-/Sitemapprüfung bestanden. Impressum, Datenschutzübersicht, FotoStempel-Datenschutz und Kontakt: Hauptinhalt gegenüber HEAD bytegleich.
+
+Screenshots und Browserprotokoll liegen lokal ignoriert unter `.scratch/redesign-1440.png`, `.scratch/redesign-390.png` und `.scratch/redesign-tests.json`. Boxvex-Icon ergänzt: Manifest → adaptive Launcher-Ressource → Original-Vektor und Hintergrundfarbe eindeutig nachgewiesen. Die bestehende allgemeine Datenschutzübersicht bleibt inhaltlich unverändert, einschließlich ihres bereits vorhandenen Entwurfshinweises.
