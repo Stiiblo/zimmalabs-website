@@ -5,7 +5,7 @@ from urllib.parse import urlsplit, unquote
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
-EXPECTED = {"haftung", "", "apps", "fotostempel", "kaufakte", "vertragsakte", "boxvex", "datenschutz", "datenschutz/fotostempel", "datenschutz/kaufakte", "impressum", "kontakt"}
+EXPECTED = {"haftung", "", "apps", "fotostempel", "kaufakte", "vertragsakte", "boxvex", "datenschutz", "datenschutz/fotostempel", "datenschutz/kaufakte", "datenschutz/vertragsakte", "impressum", "kontakt"}
 errors = []
 
 class Page(HTMLParser):
